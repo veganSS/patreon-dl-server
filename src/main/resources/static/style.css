@@ -14,8 +14,7 @@ section {
     background: #ffffff;
     display: flex;
     flex-direction: column;
-    width: 400px;
-    height: 112px;
+    width: 22rem;
     border-radius: 6px;
     justify-content: space-between;
 }
@@ -30,7 +29,7 @@ section {
 p {
     font-style: normal;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 20px;
     letter-spacing: -0.154px;
     color: #242d60;
@@ -44,15 +43,14 @@ p {
 }
 img {
     border-radius: 6px;
-    margin: 10px;
-    width: 54px;
-    height: 57px;
+    margin: 24px;
+    min-width: 64px;
 }
 h3,
 h5 {
     font-style: normal;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 20px;
     letter-spacing: -0.154px;
     color: #242d60;
@@ -62,11 +60,11 @@ h5 {
     opacity: 0.5;
 }
 #checkout-button {
-    height: 36px;
+    padding: 16px;
     background: #556cd6;
     color: white;
     width: 100%;
-    font-size: 14px;
+    font-size: 16px;
     border: 0;
     font-weight: 500;
     cursor: pointer;
